@@ -1,4 +1,4 @@
-dbPassword='mongodb+srv://dixitdesai:dixitdesai@cluster0.afstljv.mongodb.net/test'
+dbPassword='mongodb://localhost:27017'
 
 module.exports = {
   mongoURI: dbPassword
