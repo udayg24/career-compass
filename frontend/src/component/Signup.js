@@ -85,7 +85,7 @@ const MultifieldInput = (props) => {
       <Grid item>
         <Button
           variant="contained"
-          style={{background: "#2E3B55", color: "#FAFAFA"}}
+          style={{background: "#734f96", color: "#FAFAFA"}}
           onClick={() =>
             setEducation([
               ...education,
@@ -317,7 +317,7 @@ const Signup = (props) => {
     <Paper elevation={3} className={classes.body}>
       <Grid container direction="column" spacing={3} alignItems="center">
         <Grid item>
-          <Typography variant="h4" style={{color:"#2E3B55",fontWeight:"bold"}}>
+          <Typography variant="h4" style={{color:"#734f96",fontWeight:"bold"}}>
             SIGN UP
           </Typography>
         </Grid>
@@ -468,14 +468,13 @@ const Signup = (props) => {
         <Grid item>
           <Button
             variant="contained"
-            color="primary"
             onClick={() => {
               signupDetails.type === "applicant"
                 ? handleLogin()
                 : handleLoginRecruiter();
             }}
             className={classes.submitButton}
-            style={{borderRadius:"8px",width:"130px",height:"50px"}}
+            style={{borderRadius:"8px",width:"130px",height:"50px",background:"#734f96", color:"#fff"}}
           >
             Register
           </Button>

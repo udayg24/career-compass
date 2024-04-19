@@ -179,9 +179,12 @@ const JobTile = (props) => {
           <Grid item xs>
             <Button
               variant="contained"
-              color="primary"
               className={classes.statusBlock}
               onClick={() => handleClick(`/job/applications/${job._id}`)}
+              style={{
+                background:"#734f96",
+                color:"#fff"
+              }}
             >
               View Applications
             </Button>

@@ -123,7 +123,7 @@ const Login = (props) => {
         <Grid container direction="column" spacing={4} alignItems="center">
         
           <Grid item>
-            <Typography variant="h3" component="h2" style={{color:"#2E3B55",fontWeight:"bold"}}>
+            <Typography variant="h3" component="h2" style={{color:"#734f96",fontWeight:"bold"}}>
               Welcome back, Login!
             </Typography>
           </Grid>
@@ -148,10 +148,9 @@ const Login = (props) => {
           <Grid item>
             <Button
               variant="contained"
-              color="primary"
               onClick={() => handleLogin()}
               className={classes.submitButton}
-              style={{borderRadius:"8px",width:"130px",height:"50px"}}
+              style={{borderRadius:"8px",width:"130px",height:"50px", background:"#734f96", color:"#fff"}}
             >
               Login
             </Button>

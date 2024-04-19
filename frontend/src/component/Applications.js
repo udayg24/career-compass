@@ -149,7 +149,7 @@ const ApplicationTile = (props) => {
               className={classes.statusBlock}
               style={{
                 background: colorSet[application.status],
-                color: "#ffffff",
+                color: "#DFC5FE",
               }}
             >
               {application.status}
@@ -266,7 +266,7 @@ const Applications = (props) => {
           ))
         ) : (
           <Typography variant="h5" style={{ height:"50px", textAlign: "center",
-          background:"rgba(255,255,255,0.5)",marginLeft:"25%",marginRight:"25%",paddingTop:"15px"}}>
+          background:"rgba(223,197,254,0.5)",marginLeft:"25%",marginRight:"25%",paddingTop:"15px"}}>
             No Applications Found
           </Typography>
         )}

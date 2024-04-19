@@ -26,7 +26,7 @@ const Navbar = (props) => {
   };
 
   return (
-    <AppBar position="fixed" style={{ background: "#2E3B55" }}>
+    <AppBar position="fixed" style={{ background: "#734f96" }}>
       <Toolbar style={{ minHeight: "80px" }}>
         <a
           variant="h6"
@@ -45,38 +45,38 @@ const Navbar = (props) => {
           {isAuth() ? (
             userType() === "recruiter" ? (
               <>
-                <Button color="inherit" onClick={() => handleClick("/home")}>
-                  <Typography style={{ fontSize: "18px" }}>Home</Typography>
+                <Button onClick={() => handleClick("/home")} style={{background:"#DFC5FE", margin:'0px 5px', borderRadius:"50px", padding:"10px 16px"}}>
+                  <Typography style={{ fontSize: "18px", color:"#36454F"  }}>Home</Typography>
                 </Button>
-                <Button color="inherit" onClick={() => handleClick("/addjob")}>
-                  <Typography style={{ fontSize: "18px" }}>Add Jobs</Typography>
+                <Button color="inherit" onClick={() => handleClick("/addjob")} style={{background:"#DFC5FE", margin:'0px 5px', borderRadius:"50px", padding:"10px 16px"}}>
+                  <Typography style={{ fontSize: "18px", color:"#36454F" }}>Add Jobs</Typography>
                 </Button>
-                <Button color="inherit" onClick={() => handleClick("/myjobs")}>
-                  <Typography style={{ fontSize: "18px" }}>Posted</Typography>
+                <Button color="inherit" onClick={() => handleClick("/myjobs")} style={{background:"#DFC5FE", margin:'0px 5px', borderRadius:"50px", padding:"10px 16px"}}>
+                  <Typography style={{ fontSize: "18px", color:"#36454F" }}>Posted</Typography>
                 </Button>
-                <Button color="inherit" onClick={() => handleClick("/employees")}>
-                  <Typography style={{ fontSize: "18px" }}>Employees</Typography>
+                <Button color="inherit" onClick={() => handleClick("/employees")} style={{background:"#DFC5FE", margin:'0px 5px', borderRadius:"50px", padding:"10px 16px"}}>
+                  <Typography style={{ fontSize: "18px" , color:"#36454F"}}>Employees</Typography>
                 </Button>
-                <Button color="inherit" onClick={() => handleClick("/profile")}>
-                  <Typography style={{ fontSize: "18px" }}>Profile</Typography>
+                <Button color="inherit" onClick={() => handleClick("/profile")} style={{background:"#DFC5FE", margin:'0px 5px', borderRadius:"50px", padding:"10px 16px"}}>
+                  <Typography style={{ fontSize: "18px", color:"#36454F" }}>Profile</Typography>
                 </Button>
-                <Button color="inherit" onClick={() => handleClick("/logout")}>
-                  <Typography style={{ fontSize: "18px" }}>Logout</Typography>
+                <Button color="inherit" onClick={() => handleClick("/logout")} style={{background:"#DFC5FE", margin:'0px 5px', borderRadius:"50px", padding:"10px 16px"}}>
+                  <Typography style={{ fontSize: "18px", color:"#36454F" }}>Logout</Typography>
                 </Button>
               </>
             ) : (
               <>
-                <Button color="inherit" onClick={() => handleClick("/home")}>
-                  <Typography style={{ fontSize: "18px" }}>Home</Typography>
+                <Button color="inherit" onClick={() => handleClick("/home")} style={{background:"#DFC5FE", margin:'0px 5px', borderRadius:"50px", padding:"10px 16px"}}>
+                  <Typography style={{ fontSize: "18px", color:"#36454F" }}>Home</Typography>
                 </Button>
-                <Button color="inherit" onClick={() => handleClick("/applications")}>
-                  <Typography style={{ fontSize: "18px" }}>Applied</Typography>
+                <Button color="inherit" onClick={() => handleClick("/applications")} style={{background:"#DFC5FE", margin:'0px 5px', borderRadius:"50px", padding:"10px 16px"}}>
+                  <Typography style={{ fontSize: "18px", color:"#36454F" }}>Applied</Typography>
                 </Button>
-                <Button color="inherit" onClick={() => handleClick("/profile")}>
-                  <Typography style={{ fontSize: "18px" }}>Profile</Typography>
+                <Button color="inherit" onClick={() => handleClick("/profile")} style={{background:"#DFC5FE", margin:'0px 5px', borderRadius:"50px", padding:"10px 16px"}}>
+                  <Typography style={{ fontSize: "18px" , color:"#36454F"}}>Profile</Typography>
                 </Button>
-                <Button color="inherit" onClick={() => handleClick("/logout")}>
-                  <Typography style={{ fontSize: "18px" }}>Logout</Typography>
+                <Button color="inherit" onClick={() => handleClick("/logout")} style={{background:"#DFC5FE", margin:'0px 5px', borderRadius:"50px", padding:"10px 16px"}}>
+                  <Typography style={{ fontSize: "18px", color:"#36454F" }}>Logout</Typography>
                 </Button>
               </>
             )
@@ -84,32 +84,21 @@ const Navbar = (props) => {
             <>
               <div style={{ display: "inline-block", marginRight: "16px" }}>
                 <Button
-                  style={{
-                    backgroundColor: "#6A5ACD", // Background color
-                    borderRadius: "22px", // Rounded corners for a capsule shape
-                    padding: "8px 16px", // Padding for the button content
-                    color: "inherit",
-                  }}
-                  color="inherit"
+                    style={{background:"#DFC5FE", margin:'0px 5px', borderRadius:"50px", padding:"10px 16px"}}
                   onClick={() => handleClick("/login")}
                 >
                   <Typography
                     style={{
                       fontSize: "18px",
                       fontFamily: "sans-serif",
-                      textTransform: "capitalize",
+                      textTransform: "capitalize", color:"#36454F"
                     }}
                   >
                     Login
                   </Typography>
                 </Button>
                 <Button
-                  style={{
-                    backgroundColor: "#6A5ACD", // Background color
-                    borderRadius: "22px", // Rounded corners for a capsule shape
-                    padding: "8px 16px", // Padding for the button content
-                    color: "inherit",
-                  }}
+                 style={{background:"#DFC5FE", margin:'0px 5px', borderRadius:"50px", padding:"10px 16px"}}
                   color="inherit"
                   onClick={() => handleClick("/signup")}
                 >
@@ -118,6 +107,7 @@ const Navbar = (props) => {
                       fontSize: "18px",
                       fontFamily: "sans-serif",
                       textTransform: "capitalize",
+                      color:"#36454F"
                     }}
                   >
                     SignUp

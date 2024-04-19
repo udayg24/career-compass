@@ -688,7 +688,7 @@ const AcceptedApplicants = (props) => {
         style={{ padding: "30px", minHeight: "93vh" }}
       >
         <Grid item>
-          <Typography variant="h4" style={{color:"#2E3B55",fontWeight:"bold"}}>Employees</Typography>
+          <Typography variant="h4" style={{color:"#734f96",fontWeight:"bold"}}>Employees</Typography>
         </Grid>
         <Grid item>
           <IconButton> {/* onClick={() => setFilterOpen(true)} */}

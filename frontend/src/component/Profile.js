@@ -293,7 +293,7 @@ const Profile = (props) => {
                   className={classes.avatar}
                   
                 />
-                <Typography variant="h3" component="h2" style={{color:"#3f51b5",fontWeight:"bold"}}>
+                <Typography variant="h3" component="h2" style={{color:"#734f96",fontWeight:"bold"}}>
                 Profile
                 </Typography>
               </Grid>

@@ -111,7 +111,7 @@ const CreateJobs = (props) => {
               }}
             >
         <Grid item>
-          <Typography variant="h4" style={{color:"#2E3B55",fontWeight:"bold", paddingBottom: "25px"}}>ADD JOB</Typography>
+          <Typography variant="h4" style={{color:"#734f96",fontWeight:"bold", paddingBottom: "25px"}}>ADD JOB</Typography>
         </Grid>
               <Grid
                 container
@@ -246,7 +246,7 @@ const CreateJobs = (props) => {
               </Grid>
               <Button
                 variant="contained"
-                style={{ background:"#2E3B55", color: "#FAFAFA", padding: "10px 50px", marginTop: "30px" }}
+                style={{ background:"#734f96", color: "#FAFAFA", padding: "10px 50px", marginTop: "30px" }}
                 onClick={() => handleUpdate()}
               >
                 Create Job

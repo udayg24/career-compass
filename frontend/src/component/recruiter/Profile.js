@@ -137,7 +137,7 @@ const Profile = (props) => {
           >
             <Grid container direction="column" alignItems="stretch" spacing={3}>
             <Grid item >
-              <Typography variant="h4" component="h2" style={{color:"#2E3B55", textAlign: "center", fontWeight:"bold"}}>
+              <Typography variant="h4" component="h2" style={{color:"#734f96", textAlign: "center", fontWeight:"bold"}}>
                 Profile
               </Typography>
             </Grid>
@@ -188,7 +188,7 @@ const Profile = (props) => {
             </Grid>
             <Button
               variant="contained"
-              color="primary"
+              color="#734f96"
               style={{ padding: "10px 50px", marginTop: "30px" }}
               onClick={() => handleUpdate()}
             >

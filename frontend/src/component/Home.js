@@ -539,7 +539,7 @@ const Home = (props) => {
                   </InputAdornment>
                 ),
               }}
-              style={{ width: "500px",backgroundColor:"white",borderRadius:"12px" }}
+              style={{ width: "500px",backgroundColor:"#DFC5FE",borderRadius:"12px" }}
               variant="outlined"
             />
           </Grid>
@@ -560,7 +560,7 @@ const Home = (props) => {
             })
           ) : (
             <Typography variant="h5" style={{height:"50px", textAlign: "center",
-            background:"rgba(255,255,255,0.5)",marginLeft:"25%",marginRight:"25%",paddingTop:"15px" }}>
+            background:"rgba(223,197,254,0.5)",marginLeft:"25%",marginRight:"25%",paddingTop:"15px" }}>
               No jobs found
             </Typography>
           )}
